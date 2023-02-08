@@ -1,0 +1,92 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: "Arial", monospace;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.5);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+  
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+  
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+  
+.page-logo {
+    width: 200px;
+}
+  
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+h1 {
+    color: white;
+    margin-bottom: none;
+}
+  
+th, tr, td {
+    border: solid 1px white;
+    color: white;
+    padding: 5px;
+}
+  
+button {
+    background-color: #005118;
+    color: #f6f6f6;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px rgba(255,255,255, 0.40);
+    margin: 0 5px 5px;
+    padding: 10px;
+    border-radius: 5px;
+
+    transition: background 0.3s;
+}
+
+.adicionarSelecao {
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px rgba(255,255,255, 0.40);
+}
+
+#novaSelecao {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #ffff;
+    width: 200px;
+}
+
+button:hover {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+.nomeSelecao {
+    font-weight: bold;
+}

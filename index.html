@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Pontos</title>
+
+    <link rel="stylesheet" href="./style.css">
+    
+    
+</head>
+<body>
+    <span>
+        <header>
+            <h1>Copa do Mundo FIFA 2022</h1>
+    
+            <img src="./img/logo-page.svg" alt="logo-page">
+        </header>
+    
+        <input type="text" name="novaSelecao" id="novaSelecao" placeholder="Insira o nome de uma seleção">
+    
+        <button class="adicionarSelecao" onclick="adicionarSelecoes()">Adicionar Seleção</button>
+        
+    </span>
+    
+    <table style="width:100%">
+            
+        <thead>
+            <tr> <!--linha-->
+                <th>Seleção</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Pontos</th>
+                <th colspan="3">Ações</th>
+            </tr>
+        </thead>
+
+        <tbody id="tabelaSelecoes">
+            <!--<tr>
+                <td></td> célula
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><button onclick="adicionarVitoria()">Vitória</button></td>
+                <td><button onclick="adicionarEmpate()">Empate</button></td>
+                <td><button onclick="adicionarDerrota()">Derrota</button></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><button onclick="adicionarVitoria()">Vitória</button></td>
+                <td><button onclick="adicionarEmpate()">Empate</button></td>
+                <td><button onclick="adicionarDerrota()">Derrota</button></td>
+            </tr> -->
+        </tbody>
+    </table>
+    
+    
+
+    
+</body>
+
+<script type="text/javascript" src="./script.js"></script>
+
+</html>
